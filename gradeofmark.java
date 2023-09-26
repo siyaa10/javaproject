@@ -1,3 +1,10 @@
+/*
+ * file:grade of marks
+ * description:to find the grade from percentage
+ * author:Siya
+ * version:1.0
+ * date:26/9/2023
+ */
 package gradeofmarks;
 import java.util.Scanner;
 public class gradeofmark {
