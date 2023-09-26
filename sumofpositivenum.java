@@ -1,3 +1,10 @@
+/*
+ * file:sum of positive numbers
+ * description:to find sum of positive numbers
+ * author:Siya
+ * version:1.0
+ * date:26/9/2023
+ */
 package sumofpositivenum.java;
 import java.util.Scanner;
 public class sumofpositivenum {
