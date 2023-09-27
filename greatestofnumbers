@@ -1,6 +1,6 @@
-package roots;
+package greatestofnumbers;
 import java.util.Scanner;
-public class rootsofquadratic {
+public class greatestofnumbers {
 	public static void main(String[]args)
 	{
 		int num1,num2,num3;
