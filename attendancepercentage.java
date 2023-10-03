@@ -1,3 +1,11 @@
+/*
+ * file:attendance percentage
+ * description:to display mark based on attendance percentage
+ * author:Siya
+ * version:1.0
+ * date:26/9/2023
+ */
+
 package attendancepercentage.java;
 import java.util.Scanner;
 
