@@ -1,3 +1,11 @@
+/*
+ * file:frequency count
+ * description:to find the frequency of a character in a string
+ * author:Siya
+ * version:1.0
+ * date:03/10/2023
+ */
+
 package frequencycount.java;
 import java.util.Scanner;
 public class frequencycount {
