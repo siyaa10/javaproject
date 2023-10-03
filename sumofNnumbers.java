@@ -1,3 +1,11 @@
+/*
+ * file:sum of numbers
+ * description:to find sum of n numbers
+ * author:Siya
+ * version:1.0
+ * date:26/9/2023
+ */
+
 package sumofNnumbers;
 import java.util.Scanner;
 public class sumofNnumbers {
