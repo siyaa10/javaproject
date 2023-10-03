@@ -1,3 +1,11 @@
+/*
+ * file:palindrome
+ * description:to find whether a agiven string is palindrome or not
+ * author:Siya
+ * version:1.0
+ * date:03/10/2023
+ */
+
 package palindrome.java;
 import java.util.Scanner;
 public class palindrome {
