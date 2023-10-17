@@ -1,3 +1,4 @@
+
 package employeeDetails;
 import java.util.Scanner;
 public class employeedetails {
@@ -32,7 +33,8 @@ class Employee
 	public void getDetails()
 	{
 		System.out.println("enter name");
-		name=sc.next();
+		sc.nextLine();
+		name=sc.nextLine();
 		System.out.println("enter age");
 		age=sc.nextInt();
 		System.out.println("enter phonenumber");
@@ -41,7 +43,7 @@ class Employee
 		salary=sc.nextInt();
 		System.out.println("enter address");
 		sc.nextLine();
-		address=sc.next();
+		address=sc.nextLine();
 		
 	}
 	public void printDetails()
