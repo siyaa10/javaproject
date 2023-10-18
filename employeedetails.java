@@ -1,4 +1,10 @@
-
+/*
+ * file:employee details
+ * description:to display the details of employee
+ * author:Siya
+ * version:1.0
+ * date:17/10/2023
+ */
 package employeeDetails;
 import java.util.Scanner;
 public class employeedetails {
