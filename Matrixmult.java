@@ -1,4 +1,10 @@
-
+/*
+ * file:matrixmultiplication
+ * description:to multiply any two given matrices
+ * author:Siya
+ * version:1.0
+ * date:17/10/2023
+ */
 
 import java.util.Scanner;
 
