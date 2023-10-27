@@ -1,6 +1,6 @@
 package javalab;
 import java.util.Scanner;
-public class Employee{
+public class Abstractclass{
 	public static void main(String[] args) {
 		Rectangle rectangle = new Rectangle();
 		Triangle triangle = new Triangle();
