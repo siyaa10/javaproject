@@ -1,3 +1,10 @@
+/*
+ * file:matrixtranspose
+ * description:to get the transpose of a matrix
+ * author:Siya
+ * version:1.0
+ * date:31/10/2023
+ */
 package javaproject;
 import java.util.Scanner;
 public class Matrixtranspose {
