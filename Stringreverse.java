@@ -1,3 +1,10 @@
+/*
+ * file:stringreverse
+ * description:to reverse a string
+ * author:Siya
+ * version:1.0
+ * date:31/10/2023
+ */
 package javaproject;
 import java.util.Scanner;
 public class Stringreverse {
