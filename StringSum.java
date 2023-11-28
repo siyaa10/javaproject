@@ -1,3 +1,12 @@
+/*
+ * file:StringSum
+ * description:to find the sum of an integer string using stringtokenizer
+ * author:Siya
+ * version:1.0
+ * date:28/11/2023
+ */
+
+package palindrome.java;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 public class StringSum {
