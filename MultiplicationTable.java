@@ -1,3 +1,11 @@
+/*
+ * file:MultiplicationTable Thread
+ * description:to print multiplication table using threads
+ * author:Siya
+ * version:1.0
+ * date:28/11/2023
+ */
+
 import java.util.Scanner;
 public class MultiplicationTable {
 	public static void main(String[]args)
