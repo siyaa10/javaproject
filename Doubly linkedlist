@@ -1,0 +1,83 @@
+import java.util.LinkedList;
+import java.util.Scanner;
+public class Doublylinkedlist {
+	public static void main(String[]args)
+	{
+		DLinkedlist<Integer>doublyLinkedlist=new DLinkedlist<Integer>();
+		Scanner sc=new Scanner(System.in);
+		int choice;
+		System.out.println("1.Insert at the first position");
+		System.out.println("2.Insert at the last position");
+		System.out.println("3.Insert at any position");
+		System.out.println("4.delete at any position");
+		System.out.println("5.display");
+		System.out.println("6.exit");
+		do
+		{
+			System.out.println("Enter your choice :");
+			choice=sc.nextInt();
+			switch(choice)
+			{
+			case 1:
+				System.out.println("Enter number :");
+				int num=sc.nextInt();
+				doublyLinkedlist.insertFront(num);
+				break;
+			case 2:
+				System.out.println("Enter number :");
+				 num=sc.nextInt();
+				doublyLinkedlist.insertLast(num);
+				break;
+			case 3:
+				System.out.println("Enter number :");
+				num=sc.nextInt();
+				System.out.println("Enter position :");
+				int position=sc.nextInt();
+				doublyLinkedlist.insertAtAnyPosition(position,num);
+				break;
+			case 4:
+				System.out.println("Enter position");
+				position=sc.nextInt();
+				doublyLinkedlist.removeAtAnyPosition(position);
+				break;
+			case 5:
+				System.out.println("The Doubly linked list is :");
+				doublyLinkedlist.display();
+				break;
+			case 6:
+				System.out.println("Invalid choice!");
+				break;	
+			}
+		}
+			while(choice<6);
+		}
+	}
+
+class DLinkedlist<T>
+{
+	private LinkedList<T>list=new LinkedList<>();
+	public void insertLast(T element)
+	{
+		list.addLast(element);
+	}
+	public void insertFront(T element)
+	{
+		list.addFirst(element);
+	}
+	public void insertAtAnyPosition(int index ,T element)
+	{
+		list.add(index,element);
+	}
+	public void removeAtAnyPosition(int index)
+	{
+		list.remove(index);
+	}
+	public void display()
+	{
+		for(T element:list)
+		{
+			System.out.println(element+" ");
+		}
+		System.out.println();
+	}
+}
